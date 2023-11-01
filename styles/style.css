@@ -1,0 +1,90 @@
+/* Importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Variaveis e reset css */
+:root{
+ --cor-vermelho:#E63946;
+ --cor-preto:#000000;
+ --cor-branco:#FFFFFF;
+ --fonte:'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Estilo do Header */
+
+.cabecalho{
+    display: flex; 
+    align-items: center;
+    padding: 60px;
+    gap: 469px;
+
+}
+
+.cabecalho__menu__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.cabecalho__menu__navegacao__link{
+    color: var(--cor-preto);
+    text-decoration: none;
+    font-size: 15px;
+    font-family: var(--fonte);
+    
+}
+
+.cabecalho__menu__navegacao__link:hover{
+    font-weight: 700;
+    color: var(--cor-vermelho);
+}
+
+/* Estilo do Main */
+
+#logo__principal{
+    padding: 0px 180px 150px 180px ;
+
+}
+
+.titulo{
+    display: flex;
+    font-size: 32px;
+    font-family: var(--fonte);
+    justify-content: center;
+    color: var(--cor-vermelho);
+}
+
+.posters__filmes__maiores__bilheterias{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px 0px 150px 0px;
+}
+
+.posters__filmes__maiores__bilheterias__descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.nome{
+    font-size: 15px;
+    font-family: var(--fonte);
+    font-weight: 700;
+    color: var(--cor-vermelho);
+    padding-top: 23px;
+}
+
+.descricao{
+    font-size: 15px;
+    font-family: var(--fonte);
+    color: var(--cor-preto);
+    padding-top: 10px;
+}
