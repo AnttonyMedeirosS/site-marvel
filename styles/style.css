@@ -61,17 +61,16 @@
     color: var(--cor-vermelho);
 }
 
-.posters__filmes__maiores__bilheterias{
+.poster__e__ator{
     display: flex;
     justify-content: space-evenly;
     padding: 150px 0px 150px 0px;
 }
 
-.posters__filmes__maiores__bilheterias__descricao{
+.poster__e__ator__imagem__descricao{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .nome{
